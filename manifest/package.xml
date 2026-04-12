@@ -6,12 +6,11 @@
     <!-- ===================================== -->
 
     <!-- Custom Objects -->
-    <!--
+    
     <types>
-        <members>Your_Object__c</members>
+        <members>Property__c</members>
         <name>CustomObject</name>
     </types>
-    -->
 
     <!-- Apex Classes -->
     <!--
