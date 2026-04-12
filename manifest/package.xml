@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+
+    <!-- ===================================== -->
+    <!-- Add metadata types below as you build  -->
+    <!-- ===================================== -->
+
+    <!-- Custom Objects -->
+    <!--
+    <types>
+        <members>Your_Object__c</members>
+        <name>CustomObject</name>
+    </types>
+    -->
+
+    <!-- Apex Classes -->
+    <!--
+    <types>
+        <members>YourClassName</members>
+        <name>ApexClass</name>
+    </types>
+    -->
+
+    <!-- Lightning Web Components -->
+    <!--
+    <types>
+        <members>yourLwcName</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    -->
+
+    <!-- Flows -->
+    <!--
+    <types>
+        <members>Your_Flow_Name</members>
+        <name>Flow</name>
+    </types>
+    -->
+
+    <!-- Permission Sets -->
+    <!--
+    <types>
+        <members>Your_Permission_Set</members>
+        <name>PermissionSet</name>
+    </types>
+    -->
+
+    <!-- Tabs -->
+    <!--
+    <types>
+        <members>Your_Object__c</members>
+        <name>CustomTab</name>
+    </types>
+    -->
+
+    <!-- ===================================== -->
+    <!-- API Version (keep this updated)        -->
+    <!-- ===================================== -->
+    <version>61.0</version>
+
+</Package>
