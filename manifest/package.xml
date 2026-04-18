@@ -9,15 +9,7 @@
     
     <types>
         <members>Property__c</members>
-        <name>CustomObject</name>
-    </types>
-
-    <types>
         <members>Tenant__c</members>
-        <name>CustomObject</name>
-    </types>
-
-    <types>
         <members>Lease__c</members>
         <name>CustomObject</name>
     </types>
@@ -55,12 +47,17 @@
     -->
 
     <!-- Tabs -->
-    <!--
     <types>
-        <members>Your_Object__c</members>
+        <members>Property__c</members>
+        <members>Tenant__c</members>
         <name>CustomTab</name>
     </types>
-    -->
+
+    <!-- Custom Apps -->
+    <types>
+        <members>CocoNest</members>
+        <name>CustomApplication</name>
+    </types>
 
     <!-- ===================================== -->
     <!-- API Version (keep this updated)        -->
