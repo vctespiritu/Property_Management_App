@@ -155,9 +155,9 @@
     <externalSharingModel>Private</externalSharingModel>
     <label>Lease</label>
     <nameField>
-        <label>Lease Name</label>
+        <label>Name</label>
         <trackHistory>false</trackHistory>
-        <type>Text</type>
+        <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Leases</pluralLabel>
     <searchLayouts></searchLayouts>

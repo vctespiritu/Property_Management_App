@@ -17,9 +17,13 @@
     <tabs>standard-Dashboard</tabs>
     <tabs>Property__c</tabs>
     <tabs>Tenant__c</tabs>
+    <tabs>Lease__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>CocoNest_UtilityBar</utilityBar>
     <workspaceConfig>
+        <mappings>
+            <tab>Lease__c</tab>
+        </mappings>
         <mappings>
             <tab>Property__c</tab>
         </mappings>

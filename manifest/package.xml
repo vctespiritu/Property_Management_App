@@ -50,6 +50,7 @@
     <types>
         <members>Property__c</members>
         <members>Tenant__c</members>
+        <members>Lease__c</members>
         <name>CustomTab</name>
     </types>
 
