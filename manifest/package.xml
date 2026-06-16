@@ -15,6 +15,12 @@
         <name>CustomObject</name>
     </types>
 
+    <!-- FlexiPages -->
+    <types>
+        <members>Property_Record_Page</members>
+        <name>FlexiPage</name>
+    </types>
+
     <!-- Apex Classes -->
     <!--
     <types>
