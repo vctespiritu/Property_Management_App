@@ -11,6 +11,7 @@
         <members>Property__c</members>
         <members>Tenant__c</members>
         <members>Lease__c</members>
+        <members>Tenant_Lease_Association__c</members>
         <name>CustomObject</name>
     </types>
 
