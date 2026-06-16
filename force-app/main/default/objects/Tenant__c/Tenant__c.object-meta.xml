@@ -161,7 +161,7 @@
     <externalSharingModel>Private</externalSharingModel>
     <label>Tenant</label>
     <nameField>
-        <label>Tenant Name</label>
+        <label>Full Name</label>
         <trackHistory>false</trackHistory>
         <type>Text</type>
     </nameField>

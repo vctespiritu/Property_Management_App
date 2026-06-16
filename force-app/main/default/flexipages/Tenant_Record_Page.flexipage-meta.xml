@@ -79,6 +79,12 @@
                 <identifier>RecordLast_Name_cField</identifier>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldItem>Record.isActive__c</fieldItem>
+                <identifier>RecordisActive__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-dbdbe8b5-a2a5-4329-9821-a373bd164785</name>
         <type>Facet</type>
     </flexiPageRegions>
