@@ -19,6 +19,7 @@
     <types>
         <members>Property_Record_Page</members>
         <members>Lease_Record_Page</members>
+        <members>Tenant_Record_Page</members>
         <name>FlexiPage</name>
     </types>
 
