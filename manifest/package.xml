@@ -23,6 +23,12 @@
         <name>FlexiPage</name>
     </types>
 
+    <!-- Flows -->
+    <types>
+        <members>Populate_Tenant_Full_Name</members>
+        <name>Flow</name>
+    </types>
+
     <!-- Apex Classes -->
     <!--
     <types>
