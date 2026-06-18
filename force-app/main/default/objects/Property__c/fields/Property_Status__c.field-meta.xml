@@ -16,9 +16,19 @@
                 <label>Active</label>
             </value>
             <value>
+                <fullName>Vacant</fullName>
+                <default>false</default>
+                <label>Vacant</label>
+            </value>
+            <value>
                 <fullName>Occupied</fullName>
                 <default>false</default>
                 <label>Occupied</label>
+            </value>
+            <value>
+                <fullName>Under Renovation</fullName>
+                <default>false</default>
+                <label>Under Renovation</label>
             </value>
             <value>
                 <fullName>Pending Sale</fullName>
@@ -29,16 +39,6 @@
                 <fullName>Sold</fullName>
                 <default>false</default>
                 <label>Sold</label>
-            </value>
-            <value>
-                <fullName>Under Renovation</fullName>
-                <default>false</default>
-                <label>Under Renovation</label>
-            </value>
-            <value>
-                <fullName>Vacant</fullName>
-                <default>false</default>
-                <label>Vacant</label>
             </value>
         </valueSetDefinition>
     </valueSet>

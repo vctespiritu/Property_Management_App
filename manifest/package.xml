@@ -6,7 +6,6 @@
     <!-- ===================================== -->
 
     <!-- Custom Objects -->
-    
     <types>
         <members>Property__c</members>
         <members>Tenant__c</members>
@@ -33,6 +32,15 @@
     <types>
         <members>US_States</members>
         <name>GlobalValueSet</name>
+    </types>
+
+    <!-- RecordType -->
+    <types>
+        <members>Account.Property_Owner</members>
+        <members>Account.Vendor</members>
+        <members>Account.Contractor</members>
+        <members>Account.HOA</members>
+        <name>RecordType</name>
     </types>
 
     <!-- Apex Classes -->
