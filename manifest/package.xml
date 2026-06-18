@@ -29,6 +29,12 @@
         <name>Flow</name>
     </types>
 
+    <!-- GlobalValueSet -->
+    <types>
+        <members>US_States</members>
+        <name>GlobalValueSet</name>
+    </types>
+
     <!-- Apex Classes -->
     <!--
     <types>
