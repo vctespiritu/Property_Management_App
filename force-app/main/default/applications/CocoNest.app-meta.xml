@@ -15,9 +15,9 @@
     <navType>Console</navType>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
-    <tabs>Property__c</tabs>
     <tabs>Tenant__c</tabs>
     <tabs>Lease__c</tabs>
+    <tabs>Property__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>CocoNest_UtilityBar</utilityBar>
     <workspaceConfig>
