@@ -251,5 +251,5 @@
         <label>Wyoming</label>
     </customValue>
     <masterLabel>US States</masterLabel>
-    <sorted>true</sorted>
+    <sorted>false</sorted>
 </GlobalValueSet>
