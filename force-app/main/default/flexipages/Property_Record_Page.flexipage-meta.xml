@@ -2,33 +2,79 @@
 <FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
     <flexiPageRegions>
         <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Name</fieldItem>
+                <identifier>RecordNameField2</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <name>Facet-395e53fd-f53b-43d3-aba0-8a31f57bf0d8</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.StreetAddress__c</fieldItem>
+                <identifier>RecordStreetAddress_cField2</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.City__c</fieldItem>
+                <identifier>RecordCity_cField2</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.State__c</fieldItem>
+                <identifier>RecordState_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Postal_Code__c</fieldItem>
+                <identifier>RecordPostal_Code_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <name>Facet-8264c842-449d-4853-9369-de7620247e33</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
             <componentInstance>
-                <componentInstanceProperties>
-                    <name>collapsed</name>
-                    <value>false</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>enableActionsConfiguration</name>
-                    <value>false</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>enableActionsInNative</name>
-                    <value>false</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>hideChatterActions</name>
-                    <value>false</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>hideSlackAction</name>
-                    <value>false</value>
-                </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>numVisibleActions</name>
                     <value>3</value>
                 </componentInstanceProperties>
-                <componentName>force:highlightsPanel</componentName>
-                <identifier>force_highlightsPanel</identifier>
+                <componentInstanceProperties>
+                    <name>primaryField</name>
+                    <value>Facet-395e53fd-f53b-43d3-aba0-8a31f57bf0d8</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>secondaryFields</name>
+                    <value>Facet-8264c842-449d-4853-9369-de7620247e33</value>
+                </componentInstanceProperties>
+                <componentName>record_flexipage:dynamicHighlights</componentName>
+                <identifier>record_flexipage_dynamicHighlights</identifier>
             </componentInstance>
         </itemInstances>
         <mode>Replace</mode>
@@ -46,6 +92,16 @@
                 <identifier>RecordNameField</identifier>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.OwnerId</fieldItem>
+                <identifier>RecordOwnerIdField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-27121bb7-d8e6-4179-8c81-bbf637c55b00</name>
         <type>Facet</type>
     </flexiPageRegions>
@@ -56,8 +112,38 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.OwnerId</fieldItem>
-                <identifier>RecordOwnerIdField</identifier>
+                <fieldItem>Record.StreetAddress__c</fieldItem>
+                <identifier>RecordStreetAddress_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.City__c</fieldItem>
+                <identifier>RecordCity_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.State__c</fieldItem>
+                <identifier>RecordState__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Postal_Code__c</fieldItem>
+                <identifier>RecordPostal_Code__cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-fd530db9-b4ef-4704-8df6-0fbbeb3a47b5</name>
@@ -152,7 +238,7 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>label</name>
-                    <value>@@@SFDCInformationSFDC@@@</value>
+                    <value>Property Information</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:fieldSection</componentName>
                 <identifier>flexipage_fieldSection</identifier>
