@@ -48,12 +48,8 @@
         </itemInstances>
         <itemInstances>
             <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>required</value>
-                </fieldInstanceProperties>
                 <fieldItem>Record.Property__c</fieldItem>
-                <identifier>RecordProperty_cField</identifier>
+                <identifier>RecordProperty__cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-d81e0479-7217-4470-83f7-969f9840fdb7</name>

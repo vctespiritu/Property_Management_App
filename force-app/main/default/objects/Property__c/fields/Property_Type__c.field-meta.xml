@@ -11,14 +11,9 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>Single Family</fullName>
+                <fullName>Commercial</fullName>
                 <default>false</default>
-                <label>Single Family</label>
-            </value>
-            <value>
-                <fullName>Multi-Family</fullName>
-                <default>false</default>
-                <label>Multi-Family</label>
+                <label>Commercial</label>
             </value>
             <value>
                 <fullName>Condominium</fullName>
@@ -26,19 +21,24 @@
                 <label>Condominium</label>
             </value>
             <value>
-                <fullName>Townhouse</fullName>
-                <default>false</default>
-                <label>Townhouse</label>
-            </value>
-            <value>
-                <fullName>Commercial</fullName>
-                <default>false</default>
-                <label>Commercial</label>
-            </value>
-            <value>
                 <fullName>Mixed Use</fullName>
                 <default>false</default>
                 <label>Mixed Use</label>
+            </value>
+            <value>
+                <fullName>Multi-Family</fullName>
+                <default>false</default>
+                <label>Multi-Family</label>
+            </value>
+            <value>
+                <fullName>Single Family</fullName>
+                <default>false</default>
+                <label>Single Family</label>
+            </value>
+            <value>
+                <fullName>Townhouse</fullName>
+                <default>false</default>
+                <label>Townhouse</label>
             </value>
         </valueSetDefinition>
     </valueSet>

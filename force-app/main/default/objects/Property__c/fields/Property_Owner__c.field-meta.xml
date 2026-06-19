@@ -3,9 +3,19 @@
     <fullName>Property_Owner__c</fullName>
     <deleteConstraint>Restrict</deleteConstraint>
     <label>Property Owner</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Value does not exist or does not match filter criteria.</errorMessage>
+        <filterItems>
+            <field>Account.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Property Owner</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
     <referenceTo>Account</referenceTo>
     <relationshipLabel>Properties</relationshipLabel>
-    <relationshipName>Properties</relationshipName>
+    <relationshipName>Properties1</relationshipName>
     <required>true</required>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
