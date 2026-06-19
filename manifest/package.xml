@@ -1,97 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 
-    <!-- ===================================== -->
-    <!-- Add metadata types below as you build  -->
-    <!-- ===================================== -->
-
-    <!-- Custom Objects -->
+    <!-- Core Data Model -->
     <types>
-        <members>Property__c</members>
-        <members>Tenant__c</members>
-        <members>Lease__c</members>
-        <members>Tenant_Lease_Association__c</members>
+        <members>*</members>
         <name>CustomObject</name>
     </types>
-
-    <!-- FlexiPages -->
     <types>
-        <members>Property_Record_Page</members>
-        <members>Lease_Record_Page</members>
-        <members>Tenant_Record_Page</members>
-        <name>FlexiPage</name>
+        <members>*</members>
+        <name>CustomField</name>
     </types>
-
-    <!-- Flows -->
     <types>
-        <members>Populate_Tenant_Full_Name</members>
-        <name>Flow</name>
+        <members>*</members>
+        <name>RecordType</name>
     </types>
-
-    <!-- GlobalValueSet -->
     <types>
-        <members>US_States</members>
+        <members>*</members>
         <name>GlobalValueSet</name>
     </types>
 
-    <!-- RecordType -->
+    <!-- UI / Lightning -->
     <types>
-        <members>Account.Property_Owner</members>
-        <members>Account.Vendor</members>
-        <members>Account.Contractor</members>
-        <members>Account.HOA</members>
-        <name>RecordType</name>
+        <members>*</members>
+        <name>Layout</name>
     </types>
-
-    <!-- Apex Classes -->
-    <!--
     <types>
-        <members>YourClassName</members>
-        <name>ApexClass</name>
+        <members>*</members>
+        <name>FlexiPage</name>
     </types>
-    -->
-
-    <!-- Lightning Web Components -->
-    <!--
     <types>
-        <members>yourLwcName</members>
-        <name>LightningComponentBundle</name>
-    </types>
-    -->
-
-    <!-- Flows -->
-    <!--
-    <types>
-        <members>Your_Flow_Name</members>
-        <name>Flow</name>
-    </types>
-    -->
-
-    <!-- Permission Sets -->
-    <!--
-    <types>
-        <members>Your_Permission_Set</members>
-        <name>PermissionSet</name>
-    </types>
-    -->
-
-    <!-- Tabs -->
-    <types>
-        <members>Property__c</members>
-        <members>Tenant__c</members>
-        <members>Lease__c</members>
+        <members>*</members>
         <name>CustomTab</name>
     </types>
-
-    <!-- Custom Apps -->
     <types>
-        <members>CocoNest</members>
+        <members>*</members>
         <name>CustomApplication</name>
     </types>
 
-    <!-- ===================================== -->
-    <!-- API Version (keep this updated)        -->
-    <!-- ===================================== -->
-    <version>61.0</version>
+    <!-- Automation -->
+    <types>
+        <members>*</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Workflow</name>
+    </types>
 
+    <!-- Security -->
+    <types>
+        <members>*</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>SharingRules</name>
+    </types>
+
+    <!-- Apex -->
+    <types>
+        <members>*</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexComponent</name>
+    </types>
+
+    <!-- Lightning Components -->
+    <types>
+        <members>*</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+
+    <!-- Reports / Dashboards -->
+    <types>
+        <members>*</members>
+        <name>ReportType</name>
+    </types>
+
+    <!-- Email / Communication -->
+    <types>
+        <members>*</members>
+        <name>EmailTemplate</name>
+    </types>
+
+    <!-- Validation / Matching / Duplicate Rules -->
+    <types>
+        <members>*</members>
+        <name>DuplicateRule</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>MatchingRules</name>
+    </types>
+
+    <!-- Object-Level Extras -->
+    <types>
+        <members>*</members>
+        <name>CompactLayout</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>QuickAction</name>
+    </types>
+
+    <version>61.0</version>
 </Package>
