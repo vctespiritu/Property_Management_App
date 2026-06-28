@@ -26,6 +26,7 @@
     <!-- Flows -->
     <types>
         <members>Populate_Tenant_Full_Name</members>
+        <members>Update_Primary_Tenant_on_Lease_from_Tenant_Lease_Association</members>
         <name>Flow</name>
     </types>
 
