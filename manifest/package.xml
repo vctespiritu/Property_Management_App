@@ -45,6 +45,12 @@
         <name>RecordType</name>
     </types>
 
+    <!-- Triggers -->
+    <types>
+        <members>*</members>
+        <name>ApexTrigger</name>
+    </types>
+
     <!-- Apex Classes -->
     <!--
     <types>
