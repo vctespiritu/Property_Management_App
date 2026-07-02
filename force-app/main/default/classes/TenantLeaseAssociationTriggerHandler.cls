@@ -18,7 +18,7 @@ public with sharing class TenantLeaseAssociationTriggerHandler implements Trigge
      * @param oldRecords the record/s in their previous state
      */
     public void beforeUpdate(Map<Id, SObject> newRecords, Map<Id, SObject> oldRecords){
-        TenantLeaseAssociationService.synchronizePrimaryTenant(newRecords);
+        TenantLeaseAssociationService.synchronizePrimaryTenant(newRecords.values());
     }
 
     /**
