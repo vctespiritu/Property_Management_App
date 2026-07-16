@@ -13,13 +13,12 @@
     <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
     <label>CocoNest</label>
     <navType>Console</navType>
-    <tabs>standard-report</tabs>
-    <tabs>standard-Dashboard</tabs>
     <tabs>Tenant__c</tabs>
     <tabs>Lease__c</tabs>
     <tabs>Property__c</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>standard-report</tabs>
     <uiType>Lightning</uiType>
-    <utilityBar>CocoNest_UtilityBar</utilityBar>
     <workspaceConfig>
         <mappings>
             <tab>Lease__c</tab>
