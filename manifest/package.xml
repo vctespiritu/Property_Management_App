@@ -91,6 +91,12 @@
         <name>CustomApplication</name>
     </types>
 
+    <!-- Permission Set -->
+    <types>
+        <members>CocoNest_Admin_User_Access</members>
+        <name>PermissionSet</name>
+    </types>
+
     <!-- ===================================== -->
     <!-- API Version (keep this updated)        -->
     <!-- ===================================== -->
