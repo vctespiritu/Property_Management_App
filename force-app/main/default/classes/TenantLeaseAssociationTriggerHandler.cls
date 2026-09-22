@@ -9,6 +9,7 @@ public with sharing class TenantLeaseAssociationTriggerHandler implements Trigge
      * @param newRecords the new records that caused the before insert event
      */
     public void beforeInsert(List<SObject> newRecords){
+        TenantLeaseAssociationService.preventALeaseWithNoPrimaryTenant(newRecords);
         TenantLeaseAssociationService.synchronizePrimaryTenant(newRecords);
     }
 
