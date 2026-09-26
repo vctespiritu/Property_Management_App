@@ -9,7 +9,7 @@ public with sharing class TenantLeaseAssociationTriggerHandler implements Trigge
      * @param newRecords the new records that caused the before insert event
      */
     public void beforeInsert(List<SObject> newRecords){
-        TenantLeaseAssociationService.preventALeaseWithNoPrimaryTenant(newRecords);
+        TenantLeaseAssociationService.preventALeaseWithNoPrimaryTenant(newRecords, null);
         TenantLeaseAssociationService.synchronizePrimaryTenant(newRecords);
     }
 
@@ -19,6 +19,7 @@ public with sharing class TenantLeaseAssociationTriggerHandler implements Trigge
      * @param oldRecords the record/s in their previous state
      */
     public void beforeUpdate(Map<Id, SObject> newRecords, Map<Id, SObject> oldRecords){
+        TenantLeaseAssociationService.preventALeaseWithNoPrimaryTenant(newRecords.values(), oldRecords.values());
         TenantLeaseAssociationService.synchronizePrimaryTenant(newRecords.values());
     }
 

@@ -75,14 +75,6 @@
     </types>
     -->
 
-    <!-- Permission Sets -->
-    <!--
-    <types>
-        <members>Your_Permission_Set</members>
-        <name>PermissionSet</name>
-    </types>
-    -->
-
     <!-- Tabs -->
     <types>
         <members>Property__c</members>
