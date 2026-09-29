@@ -2,7 +2,7 @@ public with sharing class TenantLeaseAssociationSelector {
 
 
     /**
-     * Description: gets all the tenant lease associations of the passed in leaseIds
+     * Description: gets all the Tenant Lease Associations of the passed in leaseIds
      * @param leaseIds the passed in lease ids to get all the tenant lease associations of it
      */
     public static List<Tenant_Lease_Association__c> getTenantLeaseAssocByLeaseId(List<Id> leaseIds){
