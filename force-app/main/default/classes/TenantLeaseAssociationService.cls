@@ -75,13 +75,12 @@ public with sharing class TenantLeaseAssociationService {
             }
         }
 
-        // Validate final state
         for (Tenant_Lease_Association__c tla : newRecords) {
 
             if (tla.Lease__c != null && primaryCountByLeaseId.get(tla.Lease__c) == 0) {
                 tla.addError('A lease must have a primary tenant.');
             }
-            
+
         }
     }
     
