@@ -83,16 +83,5 @@ public with sharing class TenantLeaseAssociationService {
 
         }
     }
-    
-    /**
-     * Description: synchronize the primary tenant in the tenant lease association as only one primary 
-     * tenant should be present
-     * @param newRecords the new records being changed
-     */
-    public static void synchronizePrimaryTenant(List<Tenant_Lease_Association__c> newRecords){
-
-        
-
-    }
 
 }
