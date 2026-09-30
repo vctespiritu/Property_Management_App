@@ -1,3 +1,7 @@
+/**
+ * Description: To handle Tenant_Lease_Association__c queries
+ * @author Victor Espiritu 
+ */
 public with sharing class TenantLeaseAssociationSelector {
 
 
