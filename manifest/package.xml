@@ -52,28 +52,22 @@
     </types>
 
     <!-- Apex Classes -->
-    <!--
     <types>
         <members>YourClassName</members>
         <name>ApexClass</name>
     </types>
-    -->
 
     <!-- Lightning Web Components -->
-    <!--
     <types>
         <members>yourLwcName</members>
         <name>LightningComponentBundle</name>
     </types>
-    -->
 
     <!-- Flows -->
-    <!--
     <types>
         <members>Your_Flow_Name</members>
         <name>Flow</name>
     </types>
-    -->
 
     <!-- Tabs -->
     <types>
