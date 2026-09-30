@@ -45,13 +45,20 @@
         <name>RecordType</name>
     </types>
 
-    <!-- Apex Classes -->
-    <!--
+    <!-- Triggers -->
     <types>
-        <members>YourClassName</members>
+        <members>*</members>
+        <name>ApexTrigger</name>
+    </types>
+
+    <!-- Apex Classes -->
+    <types>
+        <members>TenantLeaseAssociationSelector</members>
+        <members>TenantLeaseAssociationService</members>
+        <members>TenantLeaseAssociationServiceTest</members>
+        <members>TenantLeaseAssociationTriggerHandler</members>
         <name>ApexClass</name>
     </types>
-    -->
 
     <!-- Lightning Web Components -->
     <!--
@@ -66,14 +73,6 @@
     <types>
         <members>Your_Flow_Name</members>
         <name>Flow</name>
-    </types>
-    -->
-
-    <!-- Permission Sets -->
-    <!--
-    <types>
-        <members>Your_Permission_Set</members>
-        <name>PermissionSet</name>
     </types>
     -->
 
