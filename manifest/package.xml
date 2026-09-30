@@ -53,7 +53,10 @@
 
     <!-- Apex Classes -->
     <types>
-        <members>YourClassName</members>
+        <members>TenantLeaseAssociationSelector</members>
+        <members>TenantLeaseAssociationService</members>
+        <members>TenantLeaseAssociationServiceTest</members>
+        <members>TenantLeaseAssociationTriggerHandler</members>
         <name>ApexClass</name>
     </types>
 
