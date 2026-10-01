@@ -489,7 +489,7 @@ sf project deploy start
 Additional Salesforce configuration requirements are documented in:
 
 ```text
-SETUP.md
+DEPLOYMENT.md
 ```
 
 ---
