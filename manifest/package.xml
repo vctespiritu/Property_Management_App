@@ -57,6 +57,9 @@
         <members>TenantLeaseAssociationService</members>
         <members>TenantLeaseAssociationServiceTest</members>
         <members>TenantLeaseAssociationTriggerHandler</members>
+        <members>testUtils</members>
+        <members>TriggerDispatcher</members>
+        <members>TriggerHandler</members>
         <name>ApexClass</name>
     </types>
 
