@@ -26,6 +26,28 @@ Current functionality focuses on:
 
 Future development will expand the application into maintenance management, lease automation, reporting, and custom Lightning Web Components.
 
+## Screenshots
+
+### Property object
+
+![Property Record Page](<docs/images/screenshots/coconest-property-record-page.png>)
+
+### Lease object
+
+![Lease Record Page](<docs/images/screenshots/coconest-lease-record-page.png>)
+
+### Tenant Lease Association object
+
+![Tenant Lease Association Record Page](<docs/images/screenshots/coconest-tenant-lease-associations-record-page.png>)
+
+### Tenant object
+
+![Tenant Record Page](<docs/images/screenshots/coconest-tenant-record-page.png>)
+
+### Primary Tenant Validation UI Error
+
+![Primary Tenant Validation UI Error](<docs/images/screenshots/coconest-primary-tenant-validation.png>)
+
 ---
 
 ## Data Model
