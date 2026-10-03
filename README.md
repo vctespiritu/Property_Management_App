@@ -28,25 +28,27 @@ Future development will expand the application into maintenance management, leas
 
 ## Screenshots
 
-### Property object
+### Property Record Page
 
-![Property Record Page](<docs/images/screenshots/coconest-property-record-page.png>)
+![Property Record Page](docs/images/screenshots/coconest-property-record-page.png)
 
-### Lease object
+### Lease Record Page
 
-![Lease Record Page](<docs/images/screenshots/coconest-lease-record-page.png>)
+![Lease Record Page](docs/images/screenshots/coconest-lease-record-page.png)
 
-### Tenant Lease Association object
+### Primary Tenant Validation
 
-![Tenant Lease Association Record Page](<docs/images/screenshots/coconest-tenant-lease-associations-record-page.png>)
+Demonstrates the Apex business rule that prevents a Tenant Lease Association from being saved when the lease would be left without a primary tenant.
 
-### Tenant object
+![Primary Tenant Validation](docs/images/screenshots/coconest-primary-tenant-validation.png)
 
-![Tenant Record Page](<docs/images/screenshots/coconest-tenant-record-page.png>)
+### Tenant Record Page
 
-### Primary Tenant Validation UI Error
+![Tenant Record Page](docs/images/screenshots/coconest-tenant-record-page.png)
 
-![Primary Tenant Validation UI Error](<docs/images/screenshots/coconest-primary-tenant-validation.png>)
+### Tenant Lease Association
+
+![Tenant Lease Association Record Page](docs/images/screenshots/coconest-tenant-lease-association-record-page.png)
 
 ---
 
@@ -173,7 +175,7 @@ Development principles include:
 - Querying related records in bulk
 - Supporting multiple records and leases within the same transaction
 
-Bulk test coverage will continue to expand as additional business rules are implemented.
+Integration tests exercise the full DML → Trigger → Dispatcher → Handler → Service → Selector execution path and include 200-record bulk insert and update scenarios across multiple leases.
 
 ---
 
@@ -297,6 +299,8 @@ sf apex run test \
     --wait 20
 ```
 
+The Tenant Lease Association test suite uses real insert and update DML to validate the trigger execution path, including successful, failing, and 200-record bulk scenarios.
+
 ---
 
 ## Roadmap
@@ -305,7 +309,6 @@ Planned functionality includes:
 
 - Complete enforcement of exactly one primary tenant per lease
 - Primary tenant delete protection
-- Additional bulk and integration testing
 - Prevention of overlapping active leases
 - Automated lease-status processing
 - Maintenance Request management
